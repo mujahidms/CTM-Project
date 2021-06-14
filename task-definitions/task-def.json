@@ -1,7 +1,9 @@
 [
     {
+      "_comment": "I use private ECR repo for production environemnt, for demo pursose i used public ECR repo",
+      "_comment": "comment text goes here...",
       "name": "ctm-container",
-      "image": "497130763202.dkr.ecr.us-east-1.amazonaws.com/ctm-ecs-repo:latest",
+      "image": "public.ecr.aws/a5q6a7j9/ctm-ecs-repo:latest",
       "cpu": 10,
       "memory": 256,
       "essential": true,
